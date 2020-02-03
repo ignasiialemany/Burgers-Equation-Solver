@@ -1,0 +1,2 @@
+# BurgersEquationMPI
+MPI library 
