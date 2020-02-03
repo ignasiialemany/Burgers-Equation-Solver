@@ -1,0 +1,118 @@
+commit e191f33493ae66fd1e255c6dd0ab3ef6e3ff3f65
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 20 14:22:54 2019 +0000
+
+    Targets for serial updated, last version
+
+M	Makefile
+M	repository.log
+
+commit 913b77fac2efdd0686fbc8d01be631a0054d1cf8
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 20 12:02:29 2019 +0000
+
+    LAST VERSION. FINAL ONE
+
+M	BurgersNova.cpp
+M	Makefile
+A	Report + Summary Code/HPC_Coursework.pdf
+A	Report + Summary Code/SummaryOfTheCode.pdf
+A	readme.txt
+M	repository.log
+
+commit 1ee5826511d816b76af96a22b1c2283fcffca0c0
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 20 10:50:40 2019 +0000
+
+    Last Update
+
+M	BurgersNova.cpp
+D	burgers.o
+D	main.o
+D	model.o
+D	myprog
+M	repository.log
+
+commit 1c480649c7008657e4b69b4610f6d9beaf777caf
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 20 10:40:15 2019 +0000
+
+    Updated Makefile Version
+
+M	Makefile
+A	burgers.o
+A	main.o
+A	model.o
+A	myprog
+
+commit 95fea27f9b9c1d8ea22ad6bc5c3cf204e6498209
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 20 10:31:54 2019 +0000
+
+    Change makefile
+
+M	Makefile
+D	vel.txt
+
+commit 364c773aa0c7046f42530c63bec75181edff8cfa
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 20 10:30:42 2019 +0000
+
+    Change makefile
+
+M	Makefile
+A	repository.log
+A	vel.txt
+
+commit f17f89d74a01ed47e7e2a9762ab518f83bce8a1c
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 20 10:23:59 2019 +0000
+
+    Final version updated
+
+M	BurgersNova.cpp
+M	BurgersNova.h
+A	Makefile
+M	Model.cpp
+M	Model.h
+M	main.cpp
+
+commit d632176f04e3b5bc98058144dc6c64923dfab87d
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Mar 13 13:27:14 2019 +0000
+
+    MPI all changed, Burgers.cpp has changed to BurgersNova.cpp. I have redefined all the class to 1d arrays (It was very inefficient)
+
+D	Burgers.cpp
+D	Burgers.h
+A	BurgersNova.cpp
+A	BurgersNova.h
+M	Model.cpp
+M	Model.h
+M	main.cpp
+
+commit 891cde77915ec8ebb84e627bf0f1e176738d366a
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Wed Feb 27 21:50:13 2019 +0000
+
+    First try MPI, problems with different subdomains in x,y
+
+M	Burgers.cpp
+M	Burgers.h
+D	Makefile
+M	Model.cpp
+M	Model.h
+M	main.cpp
+
+commit 56f9697fd072f22708b4c926ec2fa65bf9a38a8b
+Author: Ignasi Alemany <ia4118@ic.ac.uk>
+Date:   Mon Feb 25 18:10:23 2019 +0000
+
+    Q1.2 serial burgers equation and makefile
+
+A	Burgers.cpp
+A	Burgers.h
+A	Makefile
+A	Model.cpp
+A	Model.h
+A	main.cpp
