@@ -1,15 +1,16 @@
-MAKEFILE:
+This code solves the burgers equation using MPI paralellisation. It was part of an HPC project in Imperial College London. 
 
-Make --> compiles the files needed to run the code
-Make diffp --> (and compile if needed) runs diffusion with Nx=101, Ny=101, Nt=1000 and 2 Processors
-Make advxp --> (and compile if needed) runs advx with Nx=101, Ny=101, Nt=1000 and 2 Processors
-Make advyp --> (and compile if needed) runs advy with Nx=101, Ny=101, Nt=1000 and 2 Processors
-Make burgp --> (and compile if needed) runs burg with Nx=101, Ny=101, Nt=1000 and 2 Processors
-Make clean --> cleans files
+The code can be run through the makefile using the following orders:
 
-RUN THE CODE WITHOUT MAKEFILE (WITH BOOST LIBRARY):
+Make diffp - Compiles if needed and runs diffusion with Nx=101, Ny=101, Nt=1000 and 2 Processors
+Make advxp - Compiles if needed and runs advection in the x axis with Nx=101, Ny=101, Nt=1000 and 2 Processors
+Make advyp - Compiles if needed and runs advection in the y axis with Nx=101, Ny=101, Nt=1000 and 2 Processors
+Make burgp - Compiles if needed and runs the full burgers equation with Nx=101, Ny=101, Nt=1000 and 2 Processors
+Make clean - Cleans all files
 
-mpiexec -n X .\myprog --options (where X is number of procs)
+The code can also be run withouth the makefile using boost libraries. The following terminal command can be called.
+
+`mpiexec -n X .\myprog --options (where X is number of procs)`
 
 --options are:
 --ax (default value is 1) "Requirement : Parameter ax, ax>0"
