@@ -17,19 +17,34 @@ The code can also be run withouth the makefile using boost libraries. The follow
 `mpiexec -n X .\myprog --options (where X is number of procs)`
 
 options are:
---ax (default value is 1) "Requirement : Parameter ax, ax>0"
---ay (default value is 0.5) "Requirement : Parameter ay, ay>0"
---b (default value is 1) "Requirement : Parameter b, b>0"
---c (default value is 0.02) "Requirement : Parameter c, c>0"
---Nx (default value is 101) "Requirement : Nx, Nx>0"
---Ny (default value is 101) "Requirement : Ny, Ny>0"
---Nt (default value is 100) "Requirement : Nt, Nt>0"
---Lx (default value is 10) "Requirement : Lx, Lx>0"
---Ly (default value is 10) "Requirement : Ly, Ly>0"
---T (default value is 1) "Requirement : T, T>0"
---Px (default value is 1) "Requirement : Px >= 1"
---Py (default value is 1)"Requirement : Py >= 1"
---help (help message, shows all the available options and requirements). 
-       
+
+`ax` (default value is 1) "Requirement : Parameter ax, ax>0"
+
+`ay` (default value is 0.5) "Requirement : Parameter ay, ay>0"
+
+`b` (default value is 1) "Requirement : Parameter b, b>0"
+
+`c` (default value is 0.02) "Requirement : Parameter c, c>0"
+
+`Nx`(default value is 101) "Requirement : Nx, Nx>0"
+
+`Ny` (default value is 101) "Requirement : Ny, Ny>0"
+
+`Nt` (default value is 100) "Requirement : Nt, Nt>0"
+
+`Lx` (default value is 10) "Requirement : Lx, Lx>0"
+
+`Ly` (default value is 10) "Requirement : Ly, Ly>0"
+
+`T` (default value is 1) "Requirement : T, T>0"
+
+`Px` (default value is 1) "Requirement : Px >= 1"
+
+`Py` (default value is 1)"Requirement : Py >= 1"
+
+The command help shows all the available options and requirements.
+
+`--help` 
+
 
 
